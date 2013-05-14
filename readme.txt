@@ -9,7 +9,7 @@ All style-tiles are in the assets folder within MDD, next to 'CI'.
 
 
 
-_______________
+______________
 Full Sail Instructions:
 
 "Your README file should explain the installation process in addition to the location of your SQL Dumps and any relevant user / admin user login information needed to test the application.
