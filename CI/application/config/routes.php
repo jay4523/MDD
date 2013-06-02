@@ -38,7 +38,19 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['auth'] = 'auth';
+$route['auth/(:any)'] = 'auth/$1';
+$route['posts/view/(:any)'] = 'posts/view/$1';
+$route['posts/get_new'] = 'posts/get_new';
+$route['posts'] = 'posts';
+$route['profile/view/(:any)'] = 'profile/view/$1';
+$route['profile/edit'] = 'profile/edit';
+$route['profile/list'] = 'profile/list_profiles';
+$route['profile/update'] = 'profile/update';
+$route['profile'] = 'profile/list_profiles';
+$route['comments/(:any)'] = 'comments/$1';
+$route['(:any)'] = 'posts';
+$route['default_controller'] = 'posts';
 $route['404_override'] = '';
 
 
